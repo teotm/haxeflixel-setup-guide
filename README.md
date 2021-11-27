@@ -38,8 +38,8 @@ haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
 haxelib install actuate
 ```
 5. Install/Reinstall [Visual Studio 2019](https://visualstudio.microsoft.com/vs/community/) community
-- If you haven't installed Visual Studio 2019 and opened the installer, you should be here. ![visual studio 2019 jak nie](https://user-images.githubusercontent.com/84466597/137597065-bd7605aa-2f23-4407-b123-c8c77f76a568.png)
-- If you're reinstalling it, you should be here. While you're here, press the `Modify` button, if you do, you should be in the last image. ![visual studio reinstalacja](https://user-images.githubusercontent.com/84466597/137597193-b1610f54-ff06-483d-af22-226e9ff772e3.png)
+- If you haven't installed Visual Studio 2019 and opened the installer, you should be here. ![visual-studio](otherLangs/template/images/visual-studio.png)
+- If you're reinstalling it, you should be here. While you're here, press the `Modify` button, if you do, you should be in the last image. ![modyfikuj](otherLangs/template/images/modyfikuj.png)
 - When you're here, at the top left corner should be tabs named: `Install workloads`, `Individual components` and the other shit, and click `Individual components`.
 - While you're in individual components search these two (it takes 4 GB of space):
 - - Windows SDK (10.0.17763.0)
@@ -49,22 +49,22 @@ haxelib install actuate
 haxelib git extension-webm https://github.com/KadeDev/extension-webm
 lime rebuild extension-webm windows
 ```
-7. If you haven't already, download one of the repositories below on GitHub and extract the `.zip` file. While you're in the folder with the GitHub repository, you downloaded, open Windows PowerShell. ![powershell](https://user-images.githubusercontent.com/84466597/137597690-4ad0016b-edec-4361-ba3b-093bf687fb21.png)
+7. If you haven't already, download one of the repositories below on GitHub and extract the `.zip` file. While you're in the folder with the GitHub repository, you downloaded, open Windows PowerShell. ![powershell](otherLangs/template/images/eksplorator.png)
 - [Vanilla (normal Friday Night Funkin')](https://github.com/ninjamuffin99/Funkin)
 - [Kade Engine](https://github.com/KadeDev/Kade-Engine)
 - [Psych Engine](https://github.com/ShadowMario/FNF-PsychEngine)
 8. While you're in Windows PowerShell type the command `lime test windows` or `lime test windows -debug`. If you're building your game for the first time, a folder `export` will be created. First game compilation will always take the longest, but it also depends if you're building for the first time the debug version or not (it may take an hour or two, or half of an hour).
 
-![Haha funi gif](https://media.discordapp.net/attachments/779638570226810900/892839578145267752/caption.gif)
+![Haha funi gif](otherLangs/template/images/funi-gif.gif)
 
 
 # Optional
 - You can also install [Visual Studio Code](https://code.visualstudio.com/download) with extensions
 - Here is [Visual Studio Code](https://code.visualstudio.com/download) extensions installation guide **(Visual Studio 2019 and Visual Studio Code are not the same)**, it makes coding easier:
 - 1. Open Visual Studio Code (doesn't matter i you open a file using it or not)
-- 2. While having [Visual Studio Code](https://code.visualstudio.com/download) opened, click this button at the left ![image](https://user-images.githubusercontent.com/84466597/135144105-66e2d630-aa99-4fbe-a417-8c8fc4e320a6.png)
+- 2. While having [Visual Studio Code](https://code.visualstudio.com/download) opened, click this button at the left ![image](otherLangs/template/images/extensions.png)
 
-![image](https://user-images.githubusercontent.com/84466597/135144029-e304a26c-633a-4010-8e36-e0e4751fc944.png)
+![image](otherLangs/template/images/extension-this-one.png)
 
 - 3. Search these Visual Studio Code extensions (This will help you with programming with file extensions `.hx` and `.lua`.):
 ```
