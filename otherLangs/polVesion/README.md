@@ -38,8 +38,8 @@ haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
 haxelib install actuate
 ```
 5. Zainstaluj/Reinstaluj [Visual Studio 2019](https://visualstudio.microsoft.com/vs/community/) wersję community
-- Jeżeli nie zainstalowałeś wcześcniej Visual Studio 2019, powinieneś się znaleźć tutaj. ![visual-studio](otherLangs/polVesion/images/visual-studio.png)
-- Jeżeli reinstalujesz, to powinieneś być tutaj. Będziesz musiał kliknąć potem `Modyfikuj`, znajdziesz się potem w tym samym miejscu co na poprzednim obrazku. ![modyfikuj](otherLangs/polVesion/otherLangs/polVesion/images/modyfikuj.png)
+- Jeżeli nie zainstalowałeś wcześcniej Visual Studio 2019, powinieneś się znaleźć tutaj. ![visual-studio](images/visual-studio.png)
+- Jeżeli reinstalujesz, to powinieneś być tutaj. Będziesz musiał kliknąć potem `Modyfikuj`, znajdziesz się potem w tym samym miejscu co na poprzednim obrazku. ![modyfikuj](images/modyfikuj.png)
 - Gdy już się tam znalazłeś, na lewym górnym rogu, są takie sekcje: `Obciążenia`, `Pojedyncze składniki` i tym podobne i kliknij `Pojedyncze składniki`.
 - Teraz wyszukaj te dwa pojedyncze składniki (to waży jakoś 4 GB) i zainstaluj je wraz z Visual Studio 2019.
 - - Windows SDK (10.0.17763.0)
@@ -49,21 +49,21 @@ haxelib install actuate
 haxelib git extension-webm https://github.com/KadeDev/extension-webm
 lime rebuild extension-webm windows
 ```
-7. Jeśli tego nie zrobiłeś, pobierz jedno z tych repozytoriów poniżej na GitHubie i wyodrębnij plik `.zip`. Gdy już jesteś w folderze z tym repozytorium, otwórz program Windows PowerShell. ![powershell](otherLangs/polVesion/images/eksplorator.png)
+7. Jeśli tego nie zrobiłeś, pobierz jedno z tych repozytoriów poniżej na GitHubie i wyodrębnij plik `.zip`. Gdy już jesteś w folderze z tym repozytorium, otwórz program Windows PowerShell. ![powershell](images/eksplorator.png)
 - [Vanilla (normalny Friday Night Funkin')](https://github.com/ninjamuffin99/Funkin)
 - [Kade Engine](https://github.com/KadeDev/Kade-Engine)
 - [Psych Engine](https://github.com/ShadowMario/FNF-PsychEngine)
 8. Gdy jesteś już PowerShellu wpisz komendę `lime test windows`, lub `lime test windows -debug`. Jeżeli pierwszy raz kompilujesz grę, wytworzy Ci się folder `export`. Pierwsza kompilacja gry w zależności od wersji debug, lub nie, zawsze Ci to zajmie najdłużej (może nawet godzinę lub dwie).
 
-![Haha funi gif](otherLangs/funi-gif.gif)
+![Haha funi gif](images/funi-gif.gif)
 
 # Opcjonalne
 - Zainstalować [Visual Studio Code](https://code.visualstudio.com/download), (to nie to samo co [Visual Studio 2019](https://visualstudio.microsoft.com/vs/community/), a wolę na tym programować!)
 - Jeżeli chcesz wiedzieć, jak łatwiej będzie Ci programować, oto poradnik jak to zrobić:
 - 1. Jak masz otwarte Visual Studio Code, otwórz jakikolwiek plik w tym edytorze tekstu, albo otwórz sam program
-- 2. Jeśli masz [Visual Studio Code](https://code.visualstudio.com/download) otwarte, to w pasku z lewej, jest taka ikona i musisz ją kliknąć ![image](otherLangs/extensions.png)
+- 2. Jeśli masz [Visual Studio Code](https://code.visualstudio.com/download) otwarte, to w pasku z lewej, jest taka ikona i musisz ją kliknąć ![image](images/extensions.png)
 
-![image](otherLangs/extension-this-one.png)
+![image](images/extension-this-one.png)
 - 3. Wyszukaj te rozszerzenia, dla Visual Studio Code
 ```
 Haxe Extension Pack zrobione przez Haxe Foundation
