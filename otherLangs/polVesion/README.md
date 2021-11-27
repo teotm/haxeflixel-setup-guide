@@ -39,7 +39,7 @@ haxelib install actuate
 ```
 5. Zainstaluj/Reinstaluj [Visual Studio 2019](https://visualstudio.microsoft.com/vs/community/) wersję community
 - Jeżeli nie zainstalowałeś wcześcniej Visual Studio 2019, powinieneś się znaleźć tutaj. ![visual-studio](otherLangs/polVesion/images/visual-studio.png)
-- Jeżeli reinstalujesz, to powinieneś być tutaj. Będziesz musiał kliknąć potem `Modyfikuj`, znajdziesz się potem w tym samym miejscu co na poprzednim obrazku. ![modyfikuj](otherLangs/polVesion/images/modyfikuj.png)
+- Jeżeli reinstalujesz, to powinieneś być tutaj. Będziesz musiał kliknąć potem `Modyfikuj`, znajdziesz się potem w tym samym miejscu co na poprzednim obrazku. ![modyfikuj](otherLangs/polVesion/otherLangs/polVesion/images/modyfikuj.png)
 - Gdy już się tam znalazłeś, na lewym górnym rogu, są takie sekcje: `Obciążenia`, `Pojedyncze składniki` i tym podobne i kliknij `Pojedyncze składniki`.
 - Teraz wyszukaj te dwa pojedyncze składniki (to waży jakoś 4 GB) i zainstaluj je wraz z Visual Studio 2019.
 - - Windows SDK (10.0.17763.0)
