@@ -1,7 +1,5 @@
 - Jeśli szukasz polskiej wersji tego dokumentu, [kliknij tu](https://github.com/teotm/friday-night-funkin-source-code-guide/blob/main/polVesion/README.md).
 
-# If you want to help with our mod, your Operation System has to be Windows 7/8/10 (I can't make Mac/Linux ports).
-## This guide is intended for Windows users
 - Before you build the mod, you have to configure some things (it may take like 10 GB) and do them one by one:
 1. If you haven't already install [Haxe 4.1.5](https://haxe.org/download/version/4.1.5/) (it has to be version 4.1.5. It can't be older or newer, cause it may crash the game).
 2. After you install **Haxe 4.1.5**, install HaxeFlixel. Installation is documented [here](https://haxeflixel.com/documentation/install-haxeflixel/), but I'll also  write it here.
