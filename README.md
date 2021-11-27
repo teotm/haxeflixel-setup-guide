@@ -1,5 +1,11 @@
-- Jeśli szukasz polskiej wersji tego dokumentu, [kliknij tu](https://github.com/teotm/friday-night-funkin-source-code-guide/blob/main/polVesion/README.md).
+# Go to:
+- [Main](#Main)
+- [Optional](#Optional) (it's really helphul)
+- [Other languages](#Other-languages)
+- [Adding languages](#Adding-languages)
 
+
+# Main
 - Before you build the mod, you have to configure some things (it may take like 10 GB) and do them one by one:
 1. If you haven't already install [Haxe 4.1.5](https://haxe.org/download/version/4.1.5/) (it has to be version 4.1.5. It can't be older or newer, cause it may crash the game).
 2. After you install **Haxe 4.1.5**, install HaxeFlixel. Installation is documented [here](https://haxeflixel.com/documentation/install-haxeflixel/), but I'll also  write it here.
@@ -52,7 +58,8 @@ lime rebuild extension-webm windows
 ![Haha funi gif](https://media.discordapp.net/attachments/779638570226810900/892839578145267752/caption.gif)
 
 
-# You can also install [Visual Studio Code](https://code.visualstudio.com/download) and download extensions to it (not required) 
+# Optional
+- You can also install [Visual Studio Code](https://code.visualstudio.com/download) with extensions
 - Here is [Visual Studio Code](https://code.visualstudio.com/download) extensions installation guide **(Visual Studio 2019 and Visual Studio Code are not the same)**, it makes coding easier:
 - 1. Open Visual Studio Code (doesn't matter i you open a file using it or not)
 - 2. While having [Visual Studio Code](https://code.visualstudio.com/download) opened, click this button at the left ![image](https://user-images.githubusercontent.com/84466597/135144105-66e2d630-aa99-4fbe-a417-8c8fc4e320a6.png)
@@ -67,7 +74,11 @@ Lua by sumneko
 ```
 If you open a file in Visual Studio Code, downloaded the extensions and the file is opened in restricted mode, add this folder with the repository, as trusted.
 
-- If you want to add another language to the guide:
+# Other languages:
+- [Polska wersja/Polish vesrion](https://github.com/teotm/friday-night-funkin-source-code-guide/blob/main/otherLangs/polVesion/README.md).
+
+# Adding languages
+If you want to add another language to the guide:
 1. Fork this repository
 2. Make a new file in Markdown and edit the English one and add your language
 3. Make a [pull request](https://github.com/teotm/friday-night-funkin-source-code-guide/pulls)

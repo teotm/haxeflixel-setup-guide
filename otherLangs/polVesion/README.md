@@ -1,4 +1,4 @@
-# Poprawię potem :/
+# Poprawię potem :/, przysięgam
 - If you look for the English version of the doucument, [click here](https://github.com/teotm/some-trio-demo/blob/main/docs/helpWithMod/coding/README.md).
 # Jeśli chcesz zostać nową osobą, która chce dołączyć do programowania moda, to Twój system operacyjny musi to być Windows 7/8/10 (nie umiem robić portów na Maca/Linuxa).
 ## Ten poradnik jest przeznaczony dla użytkowników z Windowsem
