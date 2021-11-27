@@ -1,4 +1,4 @@
-# Go to:
+# Go to section:
 - [Main](#Main)
 - [Optional](#Optional) (it's really helphul)
 - [Other languages](#Other-languages)
