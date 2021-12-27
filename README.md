@@ -49,7 +49,7 @@ haxelib install actuate
 haxelib git extension-webm https://github.com/KadeDev/extension-webm
 lime rebuild extension-webm windows
 ```
-7. If you haven't already, download one of the repositories below on GitHub and extract the `.zip` file. While you're in the folder with the GitHub repository, you downloaded, open Windows PowerShell. ![powershell](otherLangs/template/images/eksplorator.png)
+7. If you haven't already, download one of the repositories below on GitHub and extract the `.zip` file. While you're in the folder with the GitHub repository, you downloaded, open Windows PowerShell. ![powershell](otherLangs/template/images/explorer.png)
 - [Vanilla (normal Friday Night Funkin')](https://github.com/ninjamuffin99/Funkin)
 - [Kade Engine](https://github.com/KadeDev/Kade-Engine)
 - [Psych Engine](https://github.com/ShadowMario/FNF-PsychEngine)
