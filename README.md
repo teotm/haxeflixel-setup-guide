@@ -14,7 +14,7 @@ Or if you want to do it more quickly, click one of these two below:
 - - [Click to download instantly](https://cdn.discordapp.com/attachments/848938574254440468/983466914808496148/1_haxe_commands_part_1.bat)
 - After you type `haxelib run flixel-tools setup` (or if it's gonna be typed instantly), type one by one these stuff: `y`, `3`, `y`.
 3. Install `git`, [here](https://git-scm.com/downloads). **It's not the same as GitHub Desktop, or GitHub, but it's related in some way or idk.**
-4. If you followed these 3 last steps, and you have HaxeFlixel, and Git downloaded, you can now follow this step. This allows you to use commands with `git`. Go use the batchfile I made to download the remaining Haxe libraries:
+4. If you have followed these 3 last steps, and you have HaxeFlixel, and Git downloaded, you can now follow this step. This allows you to use commands with `git`. Go use the batchfile I made to download the remaining Haxe libraries:
 - [Raw](https://github.com/teotm/friday-night-funkin-source-code-guide/blob/main/batchFiles/2_haxe_commands_part_2.bat)
 - [Instant download](https://cdn.discordapp.com/attachments/848938574254440468/983478736953430067/2_haxe_commands_part_2.bat)
 5. Install/Reinstall [Visual Studio 2019](https://visualstudio.microsoft.com/vs/community/) community
