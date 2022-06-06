@@ -7,36 +7,16 @@
 
 # Main
 - Before you build the mod, you have to configure some things (it may take like 10 GB) and do them one by one:
-1. If you haven't already install [Haxe 4.1.5](https://haxe.org/download/version/4.1.5/) (it has to be version 4.1.5. It can't be older or newer, cause it may crash the game).
-2. After you install **Haxe 4.1.5**, install HaxeFlixel. Installation is documented [here](https://haxeflixel.com/documentation/install-haxeflixel/), but I'll also  write it here.
-- - HaxeFlixel installation:
-- - 1. Go to your cmd (command prompt)
-- - 2. Type these commands one by one:
-- - - Or if you don't want to type them to cmd, [click here](https://github.com/teotm/friday-night-funkin-source-code-guide/blob/main/batchFiles/1_haxe_commands_part_1.bat) and download this file:
-```
-haxelib install lime 7.9.0
-haxelib install openfl
-haxelib install flixel
-haxelib run lime setup
-haxelib run lime setup flixel
-haxelib install flixel-tools
-haxelib run flixel-tools setup
-```
-- - 3. After you type `haxelib run flixel-tools setup`, type one by one these stuff: `y`, `3`, `y`.
-3. Install `git`, [here](https://git-scm.com/downloads). **It's not the same as [GitHub Desktop](https://desktop.github.com/), or GitHub, but it's related in some way!**
-4. If you followed these 3 last steps, and have HaxeFlixel, and Git you can now follow this step. Go to your cmd and type these commands
-```
-haxelib install flixel-addons
-haxelib install flixel-ui
-haxelib install hscript
-haxelib install newgrounds
-haxelib git linc_luajit https://github.com/nebulazorua/linc_luajit.git
-haxelib git hxvm-luajit https://github.com/nebulazorua/hxvm-luajit
-haxelib git faxe https://github.com/uhrobots/faxe
-haxelib git polymod https://github.com/larsiusprime/polymod.git
-haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
-haxelib install actuate
-```
+1. If you haven't already, install [Haxe 4.1.5](https://haxe.org/download/version/4.1.5/). However if you use newer Psych versions (0.5 or above), use [Haxe 4.2.5 (the newest version)](https://haxe.org/download/version/4.2.5/).
+2. After you install **Haxe**, install HaxeFlixel. Installation is documented [here](https://haxeflixel.com/documentation/install-haxeflixel/)
+Or if you want to do it more quickly, click one of these two below:
+- - [Click for the raw file](https://raw.githubusercontent.com/teotm/friday-night-funkin-source-code-guide/main/batchFiles/1_haxe_commands_part_1.bat)
+- - [Click to download instantly](https://cdn.discordapp.com/attachments/848938574254440468/983466914808496148/1_haxe_commands_part_1.bat)
+- After you type `haxelib run flixel-tools setup` (or if it's gonna be typed instantly), type one by one these stuff: `y`, `3`, `y`.
+3. Install `git`, [here](https://git-scm.com/downloads). **It's not the same as GitHub Desktop, or GitHub, but it's related in some way or idk.**
+4. If you followed these 3 last steps, and you have HaxeFlixel, and Git downloaded, you can now follow this step. This allows you to use commands with `git`. Go use the batchfile I made to download the remaining Haxe libraries:
+- [Raw](https://github.com/teotm/friday-night-funkin-source-code-guide/blob/main/batchFiles/2_haxe_commands_part_2.bat)
+- [Instant download](https://cdn.discordapp.com/attachments/848938574254440468/983478736953430067/2_haxe_commands_part_2.bat)
 5. Install/Reinstall [Visual Studio 2019](https://visualstudio.microsoft.com/vs/community/) community
 - If you haven't installed Visual Studio 2019 and opened the installer, you should be here. ![visual-studio](otherLangs/template/images/visual-studio.png)
 - If you're reinstalling it, you should be here. While you're here, press the `Modify` button, if you do, you should be in the last image. ![modyfikuj](otherLangs/template/images/modyfikuj.png)
@@ -44,7 +24,7 @@ haxelib install actuate
 - While you're in individual components search these two (it takes 4 GB of space):
 - - Windows SDK (10.0.17763.0)
 - - MSVC v142 - VS 2019 C++ x64/x86 build tools
-6. After installin Visual Studio 2019 with these components, go back to cmd and type these two commands (it's required if you'll be using Kade Engine):
+6. After installin' Visual Studio 2019 with these components, go back to cmd and type these two commands (it's required if you'll be using Kade Engine):
 ```
 haxelib git extension-webm https://github.com/KadeDev/extension-webm
 lime rebuild extension-webm windows
