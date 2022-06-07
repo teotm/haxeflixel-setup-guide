@@ -1,39 +1,47 @@
 # Go to section:
 - [Main](#Main)
+- - [Running Hello World project in HaxeFlixel](#Running-Hello-World)
+- - [Friday Night Funkin' instructions](#Friday-Night-Funkin'-instructions)
 - [Optional](#Optional) (it's really helphul)
 - [Other languages](#Other-languages)
 - [Adding languages](#Adding-languages)
 
 
 # Main
-- Before you build the mod, you have to configure some things (it may take like 10 GB) and do them one by one:
-1. If you haven't already, install [Haxe 4.1.5](https://haxe.org/download/version/4.1.5/). However if you use newer Psych versions (0.5 or above), use [Haxe 4.2.5 (the newest version)](https://haxe.org/download/version/4.2.5/).
-2. After you install **Haxe**, install HaxeFlixel. Installation is documented [here](https://haxeflixel.com/documentation/install-haxeflixel/)
-Or if you want to do it more quickly, click one of these two below:
+Welcome to my guide, where I'll teach you how setup the installation of HaxeFlixel, so you can start programming your first HaxeFlixel project.
+- Before you start your first HaxeFlixel project, you have to configure some things and do them one by one:
+1. Install [Haxe](https://haxe.org/download/).
+2. After you install **Haxe** (which is required), install [HaxeFlixel](https://haxeflixel.com/). Its installation is documented [here](https://haxeflixel.com/documentation/install-haxeflixel/). However if you want to do it more quickly, you can download Flixel via a single batchfile:
 - - [Click for the raw file](https://raw.githubusercontent.com/teotm/friday-night-funkin-source-code-guide/main/batchFiles/1_haxe_commands_part_1.bat)
 - - [Click to download instantly](https://cdn.discordapp.com/attachments/848938574254440468/983466914808496148/1_haxe_commands_part_1.bat)
-- After you type `haxelib run flixel-tools setup` (or if it's gonna be typed instantly), type one by one these stuff: `y`, `3`, `y`.
-3. Install `git`, [here](https://git-scm.com/downloads). **It's not the same as GitHub Desktop, or GitHub, but it's related in some way or idk.**
-4. If you have followed these 3 last steps, and you have HaxeFlixel, and Git downloaded, you can now follow this step. This allows you to use commands with `git`. Go use the batchfile I made to download the remaining Haxe libraries:
+- After you type `haxelib run flixel-tools setup` (or if it's gonna be typed instantly), type one by one these stuff: `y`, `3`, `y`. If everything is done correctly, then congrats! You have installed HaxeFlixel in your PC.
+## Running Hello World
+- Go check how to do it by [clickling here](https://haxeflixel.com/documentation/hello-world/).
+## Friday Night Funkin' instructions
+Reading the [Main](#Main) section is required to do first, so you can move here.
+1. If you're gonna be modding [Psych Engine](https://github.com/ShadowMario/FNF-PsychEngine) 0.5 or higher version via source coding, skip this step.
+- Ohterwise, if you're gonna be using other engines like Kade Engine, download [Haxe 4.1.5](https://haxe.org/download/version/4.1.5/) instead.
+- - Important note: If you have already installed Haxe that **is not** 4.1.5, you don't have to uninstall it. The version will update for you.
+- - If you want to check your current Haxe version, just type this command below in your cmd. It will print your current Haxe version for you.
+```cmd
+haxe --version
+```
+2. Download `git-scm`, [here](https://git-scm.com/downloads). It will allow you to use Git commands.
+3. If you downloaded HaxeFlixel and `git-scm`, go download the remaining Haxe(Flixel) libraries as well. This allows you to use commands with `git` and compile the game properly. Go use the batchfile I made to download the remaining Haxe libraries:
 - [Raw](https://github.com/teotm/friday-night-funkin-source-code-guide/blob/main/batchFiles/2_haxe_commands_part_2.bat)
 - [Instant download](https://cdn.discordapp.com/attachments/848938574254440468/983478736953430067/2_haxe_commands_part_2.bat)
-5. Install/Reinstall [Visual Studio 2019](https://visualstudio.microsoft.com/vs/community/) community
+4. Install/Reinstall [Visual Studio 2019](https://visualstudio.microsoft.com/vs/community/) community
 - If you haven't installed Visual Studio 2019 and opened the installer, you should be here. ![visual-studio](otherLangs/template/images/visual-studio.png)
 - If you're reinstalling it, you should be here. While you're here, press the `Modify` button, if you do, you should be in the last image. ![modyfikuj](otherLangs/template/images/modyfikuj.png)
 - When you're here, at the top left corner should be tabs named: `Install workloads`, `Individual components` and the other shit, and click `Individual components`.
 - While you're in individual components search these two (it takes 4 GB of space):
 - - Windows SDK (10.0.17763.0)
 - - MSVC v142 - VS 2019 C++ x64/x86 build tools
-6. After installin' Visual Studio 2019 with these components, go back to cmd and type these two commands (it's required if you'll be using Kade Engine):
-```
-haxelib git extension-webm https://github.com/KadeDev/extension-webm
-lime rebuild extension-webm windows
-```
-7. If you haven't already, download one of the repositories below on GitHub and extract the `.zip` file. While you're in the folder with the GitHub repository, you downloaded, open Windows PowerShell. ![powershell](otherLangs/template/images/explorer.png)
+5. If you haven't already, download one of the repositories below on GitHub and extract the `.zip` file. While you're in the folder with the GitHub repository, you downloaded, open Windows PowerShell. ![powershell](otherLangs/template/images/explorer.png)
 - [Vanilla (normal Friday Night Funkin')](https://github.com/ninjamuffin99/Funkin)
 - [Kade Engine](https://github.com/KadeDev/Kade-Engine)
 - [Psych Engine](https://github.com/ShadowMario/FNF-PsychEngine)
-8. While you're in Windows PowerShell type the command `lime test windows` or `lime test windows -debug`. If you're building your game for the first time, a folder `export` will be created. First game compilation will always take the longest, but it also depends if you're building for the first time the debug version or not (it may take an hour or two, or half of an hour).
+6. While you're in Windows PowerShell type the command `lime test windows` or `lime test windows -debug`. If you're building your game for the first time, a folder `export` will be created. First game compilation will always take the longest, but it also depends if you're building for the first time the debug version or not (it may take an hour or two, or half of an hour).
 
 ![Haha funi gif](otherLangs/template/images/funi-gif.gif)
 
