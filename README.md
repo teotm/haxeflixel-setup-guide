@@ -1,7 +1,7 @@
 # Go to section:
 - [Main](#Main)
 - - [Running Hello World project in HaxeFlixel](#Running-Hello-World)
-- - [Friday Night Funkin' instructions](#Friday-Night-Funkin'-instructions)
+- - [Friday Night Funkin' instructions](#Friday-Night-Funkin%27-instructions)
 - [Optional](#Optional) (it's really helphul)
 - [Other languages](#Other-languages)
 - [Adding languages](#Adding-languages)
