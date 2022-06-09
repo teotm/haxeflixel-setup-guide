@@ -30,7 +30,7 @@ haxe --version
 3. If you downloaded HaxeFlixel and `git-scm`, go download the remaining Haxe(Flixel) libraries as well. This allows you to use commands with `git` and compile the game properly. Go use the batchfile I made to download the remaining Haxe libraries:
 - [Raw](https://github.com/teotm/friday-night-funkin-source-code-guide/blob/main/batchFiles/2_haxe_commands_part_2.bat)
 - [Instant download](https://cdn.discordapp.com/attachments/848938574254440468/983478736953430067/2_haxe_commands_part_2.bat)
-4. Install/Reinstall [Visual Studio 2019](https://visualstudio.microsoft.com/vs/community/) community
+4. Install/Reinstall [Visual Studio 2019](https://docs.microsoft.com/en-us/visualstudio/releases/2019/release-notes) community
 - If you haven't installed Visual Studio 2019 and opened the installer, you should be here. ![visual-studio](otherLangs/template/images/visual-studio.png)
 - If you're reinstalling it, you should be here. While you're here, press the `Modify` button, if you do, you should be in the last image. ![modyfikuj](otherLangs/template/images/modyfikuj.png)
 - When you're here, at the top left corner should be tabs named: `Install workloads`, `Individual components` and the other shit, and click `Individual components`.
