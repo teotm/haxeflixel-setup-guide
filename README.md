@@ -1,7 +1,7 @@
 # Go to section:
 - [Main](#Main)
 - - [Running Hello World project in HaxeFlixel](#Running-Hello-World)
-- - [Friday Night Funkin' instructions](#Friday-Night-Funkin-instructions)
+- - [Friday Night Funkin' instructions](#Friday-Night-Funkin'-instructions)
 - [Optional](#Optional) (it's really helphul)
 - [Other languages](#Other-languages)
 - [Adding languages](#Adding-languages)
@@ -15,9 +15,13 @@ Welcome to my guide, where I'll teach you how setup the installation of HaxeFlix
 - - [Click for the raw file](https://raw.githubusercontent.com/teotm/friday-night-funkin-source-code-guide/main/batchFiles/1_haxe_commands_part_1.bat)
 - - [Click to download instantly](https://cdn.discordapp.com/attachments/848938574254440468/983466914808496148/1_haxe_commands_part_1.bat)
 - After you type `haxelib run flixel-tools setup` (or if it's gonna be typed instantly), type one by one these stuff: `y`, `3`, `y`. If everything is done correctly, then congrats! You have installed HaxeFlixel in your PC.
+
+
 ## Running Hello World
 - Go check how to do it by [clickling here](https://haxeflixel.com/documentation/hello-world/).
-## Friday Night Funkin instructions
+
+
+## Friday Night Funkin' instructions
 Reading the [Main](#Main) section is required to do first, so you can move here.
 1. If you're gonna be modding [Psych Engine](https://github.com/ShadowMario/FNF-PsychEngine) 0.5 or higher version via source coding, skip this step.
 - Ohterwise, if you're gonna be using other engines like Kade Engine, download [Haxe 4.1.5](https://haxe.org/download/version/4.1.5/) instead.
