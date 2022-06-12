@@ -4,7 +4,8 @@
 - - [Friday Night Funkin' instructions](#Friday-Night-Funkin-Instructions)
 - [Optional](#Optional) (it's really helphul)
 - [Other languages](#Other-languages)
-- [Adding languages](#Adding-languages)
+- [Contributing/Adding guide languages](#Contributing)
+- [Credits](#Credits)
 
 
 # Main
@@ -53,7 +54,7 @@ haxe --version
 # Optional
 - You can also install [Visual Studio Code](https://code.visualstudio.com/download) with extensions
 - Here is [Visual Studio Code](https://code.visualstudio.com/download) extensions installation guide **(Visual Studio 2019 and Visual Studio Code are not the same)**, it makes coding easier:
-- 1. Open Visual Studio Code (doesn't matter i you open a file using it or not)
+- 1. Open Visual Studio Code (doesn't matter if you open a file using it or not)
 - 2. While having [Visual Studio Code](https://code.visualstudio.com/download) opened, click this button at the left ![image](otherLangs/template/images/extensions.png)
 
 ![image](otherLangs/template/images/extension-this-one.png)
@@ -69,8 +70,14 @@ If you open a file in Visual Studio Code, downloaded the extensions and the file
 # Other languages:
 - [Polska wersja/Polish vesrion](https://github.com/teotm/friday-night-funkin-source-code-guide/blob/main/otherLangs/polVesion/README.md).
 
-# Adding languages
-If you want to add another language to the guide:
+# Contributing
+Here is the information how you can contribute to the repository. If you want to, please follow the steps below if you have noticed any typos, misinformation or you just want to translate it.
 1. Fork this repository
-2. Make a new file in Markdown and edit the English one and add your language
+2. Translate or improve this guide
+- If you noticed any typos or misinformations, just edit this file, so it will be more correct.
+- However if you want to make a translation, make a new file and translate it.
 3. Make a [pull request](https://github.com/teotm/friday-night-funkin-source-code-guide/pulls)
+
+# Credits
+- [teotm](https://www.youtube.com/channel/UCJnOkGILRMpEAgbS0A91cWQ) (me) - (Almost) everything pretty much
+- [Kaskudek](https://www.youtube.com/channel/UCpkRxfWt_zcGw5C0Hu17Vkg) - Telling me how to make the batchfiles
