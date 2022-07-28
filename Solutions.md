@@ -1,6 +1,6 @@
 # Here is the list of the problems that beginners might encounter, while compiling the game
-- [Problem 1](Problem-no-1)
-- [Problem 2](Problem-no-2)
+- [Problem 1](#Problem-no-1)
+- [Problem 2](#Problem-no-2)
 
 ## Problem no. 1:
 ```
