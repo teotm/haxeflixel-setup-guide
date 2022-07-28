@@ -49,12 +49,11 @@ haxe --version
 - [Psych Engine](https://github.com/ShadowMario/FNF-PsychEngine)
 6. While you're in Windows PowerShell type the command `lime test windows` or `lime test windows -debug`. If you're building your game for the first time, a folder `export` will be created. First game compilation will always take the longest, but it also depends if you're building for the first time the debug version or not (it may take an hour or two, or half of an hour).
 
+![Haha funi gif](otherLangs/template/images/funi-gif.gif)
+
 ### Common beginner problems
 - Sometimes, while compiling FNF, you might get into some problems, that beginners don't know how to deal with.
 - The solution for common problems, you might encounter while compiling is listed [here](Solutions.md)
-
-![Haha funi gif](otherLangs/template/images/funi-gif.gif)
-
 
 # Optional
 - You can also install [Visual Studio Code](https://code.visualstudio.com/download) with extensions
