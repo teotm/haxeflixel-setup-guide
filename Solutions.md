@@ -1,10 +1,20 @@
-# Here is the list of the problems that beginners might encounter, while compiling the game
+# Here is the list of the problems that beginners might encounter, while starting their coding adventure
 - [Problem 1](#Problem-no-1)
 - [Problem 2](#Problem-no-2)
-- [Problem 3](#Problem-no-3) (not seen too often)
+- [Problem 3](#Problem-no-3)
+- [Problem 4](#Problem-no-4)
+- [Problem 5](#Problem-no-5) (not seen too often)
 - More problems will be added soon...
 
 ## Problem no. 1:
+The really well-know by many coders Null object reference.
+### Solution:
+This is a coding error and usually appears while coding something. The error occurs, when you try to access a non-existing object. Check your code and look for places where the object may not be defined.
+## Problem no. 2:
+Null Function Reference
+### Solution:
+This is a coding error and usually appears while coding something. The error occurs, when you try to call a function that does not exist. Check your code and look for places where the object may be a different type than expected.
+## Problem no. 3:
 ```
 source/FunkinLua.hx:342: lines 342-346 : Int should be Bool
 source/FunkinLua.hx:342: lines 342-346 : ... For function argument 'f'
@@ -22,11 +32,11 @@ Remove the
 <define name="LUA_ALLOWED" if="desktop" />
 ```
 line from your Project.xml file. This solution can make your coding more difficult, since removing the line, disables scripting with `.lua`.
-## Problem no. 2:
+## Problem no. 4:
 Does your CMD/IDE while not letting you compile the game something about Visual Studio 2017?
 ### Solution:
 If it does, download Visual Studio 2017. Here's the download](https://docs.microsoft.com/en-us/visualstudio/releasenotes/vs2017-relnotes).
-## Problem no. 3:
+## Problem no. 5:
 Beginners usually do not encounter this problem but I would like to tell about this one anyways.
 
 Imagine a situation where you were coding normally for some time and your compiling problems were succesful. Pretty normal, huh? But once compiling, you can't do it, because this one problem appeared.
