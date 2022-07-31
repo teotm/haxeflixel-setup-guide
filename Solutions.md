@@ -7,13 +7,13 @@
 - More problems will be added soon...
 
 ## Problem no. 1:
-The really well-know by many coders Null object reference.
+The really well-known by many coders Null object reference.
 ### Solution:
-This is a coding error and usually appears while coding something. The error occurs, when you try to access a non-existing object. Check your code and look for places where the object may not be defined.
+This is a coding error and usually appears while coding any HaxeFlixel game. The error occurs, when you try to access a non-existing object. Check your code and look for places where the object may not be defined.
 ## Problem no. 2:
 Null Function Reference
 ### Solution:
-This is a coding error and usually appears while coding something. The error occurs, when you try to call a function that does not exist. Check your code and look for places where the object may be a different type than expected.
+This is a coding error and usually appears while coding any HaxeFlixel game. The error occurs, when you try to call a function that does not exist. Check your code and look for places where the object may be a different type than expected.
 ## Problem no. 3:
 ```
 source/FunkinLua.hx:342: lines 342-346 : Int should be Bool
