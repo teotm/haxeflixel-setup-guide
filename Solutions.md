@@ -3,7 +3,8 @@
 - [Problem 2](#Problem-no-2)
 - [Problem 3](#Problem-no-3)
 - [Problem 4](#Problem-no-4)
-- [Problem 5](#Problem-no-5) (not seen too often)
+- [Problem 5](#Problem-no-5) 
+- [Problem 6](#Problem-no-6) (not seen too often)
 - More problems will be added soon...
 
 ## Problem no. 1:
@@ -37,6 +38,16 @@ Does your CMD/IDE while not letting you compile the game something about Visual 
 ### Solution:
 If it does, download Visual Studio 2017. [Here's the download](https://docs.microsoft.com/en-us/visualstudio/releasenotes/vs2017-relnotes).
 ## Problem no. 5:
+Kade Engine just crashes after Caching (loading characters and songs).
+### Solution:
+Go to `TitleState.hx` and search for these lines and delete them:
+```haxe
+#if polymod
+polymod.Polymod.init({modRoot: "mods", dirs: ['introMod']});
+#end
+```
+The game just tries to pull the mods folder and does not know what else to do when an object can't get displayed, so it just crashes.
+## Problem no. 6:
 Beginners usually do not encounter this problem but I would like to tell about this one anyways.
 
 Imagine a situation where you were coding normally for some time and your compiling problems were succesful. Pretty normal, huh? But once compiling, you can't do it, because this one problem appeared.
