@@ -35,7 +35,7 @@ line from your Project.xml file. This solution can make your coding more difficu
 ## Problem no. 4:
 Does your CMD/IDE while not letting you compile the game something about Visual Studio 2017?
 ### Solution:
-If it does, download Visual Studio 2017. Here's the download](https://docs.microsoft.com/en-us/visualstudio/releasenotes/vs2017-relnotes).
+If it does, download Visual Studio 2017. [Here's the download](https://docs.microsoft.com/en-us/visualstudio/releasenotes/vs2017-relnotes).
 ## Problem no. 5:
 Beginners usually do not encounter this problem but I would like to tell about this one anyways.
 
