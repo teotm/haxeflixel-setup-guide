@@ -3,11 +3,9 @@
 - - [Running Hello World project in HaxeFlixel](#Running-Hello-World)
 - - [Friday Night Funkin' instructions](#Friday-Night-Funkin-Instructions)
 - - - [Common beginner problems](#Common-beginner-problems)
-- [Optional](#Optional) (it's really helphul)
-- [Other languages](#Other-languages)
-- [Contributing/Adding guide languages](#Contributing)
+- [Recommended IDE to work in](#Recommended-IDE)
+- [Contributing](#Contributing)
 - [Credits](#Credits)
-
 
 # Main
 Welcome to my guide, where I'll teach you how setup the installation of HaxeFlixel, so you can start programming your first HaxeFlixel project.
@@ -37,12 +35,13 @@ haxe --version
 - [Raw](https://github.com/teotm/friday-night-funkin-source-code-guide/blob/main/batchFiles/2_haxe_commands_part_2.bat)
 - [Instant download](https://cdn.discordapp.com/attachments/848938574254440468/983478736953430067/2_haxe_commands_part_2.bat)
 4. Install/Reinstall [Visual Studio 2019](https://docs.microsoft.com/en-us/visualstudio/releases/2019/release-notes) community
-- If you haven't installed Visual Studio 2019 and opened the installer, you should be here. ![visual-studio](otherLangs/template/images/visual-studio.png)
-- If you're reinstalling it, you should be here. While you're here, press the `Modify` button, if you do, you should be in the last image. ![modyfikuj](otherLangs/template/images/modyfikuj.png)
+- If you haven't installed Visual Studio 2019 and opened the installer, you should be here. ![visual-studio](otherLangs/template/images/visual-studio.png "Seriously, I need to get English screenshots. I tried changing OS language, but it did not work for Visual Studio 2019.")
+- If you're reinstalling it, you should be here. While you're here, press the `Modify` button, if you do, you should be in the last image. ![modyfikuj](otherLangs/template/images/modyfikuj.png "Seriously, I need to get English screenshots. I tried changing OS language, but it did not work for Visual Studio 2019.")
 - When you're here, at the top left corner should be tabs named: `Install workloads`, `Individual components` and the other shit, and click `Individual components`.
 - While you're in individual components search these two (it takes 4 GB of space):
 - - Windows SDK (10.0.17763.0)
 - - MSVC v142 - VS 2019 C++ x64/x86 build tools
+- - - Note: Search for `MSVC wersja 142 — VS 2019 — narzędzia kompilacji środowiska C++ (najnowsza wersja) dla architektury x64/x86` instead, if your Visual Studio 2019 is Polish instead
 5. If you haven't already, download one of the repositories below on GitHub and extract the `.zip` file. While you're in the folder with the GitHub repository, you downloaded, open Windows PowerShell. ![powershell](otherLangs/template/images/explorer.png)
 - [Vanilla (normal Friday Night Funkin')](https://github.com/ninjamuffin99/Funkin)
 - [Kade Engine](https://github.com/KadeDev/Kade-Engine)
@@ -55,15 +54,11 @@ haxe --version
 - Sometimes, while compiling FNF, you might get into some problems, that beginners don't know how to deal with.
 - The solution for common problems, you might encounter while compiling is listed [here](Solutions.md)
 
-# Optional
-- You can also install [Visual Studio Code](https://code.visualstudio.com/download) with extensions
-- Here is [Visual Studio Code](https://code.visualstudio.com/download) extensions installation guide **(Visual Studio 2019 and Visual Studio Code are not the same)**, it makes coding easier:
-- 1. Open Visual Studio Code (doesn't matter if you open a file using it or not)
-- 2. While having [Visual Studio Code](https://code.visualstudio.com/download) opened, click this button at the left ![image](otherLangs/template/images/extensions.png)
-
+# Recommended IDE
+1. Install [Visual Studio Code](https://code.visualstudio.com/download)
+2. While having [Visual Studio Code](https://code.visualstudio.com/download) opened, click this button at the left ![image](otherLangs/template/images/extensions.png)
 ![image](otherLangs/template/images/extension-this-one.png)
-
-- 3. Search these Visual Studio Code extensions (This will help you with programming with file extensions `.hx` and `.lua`.):
+3. Search for these Visual Studio Code extensions (This will help you with programming with file extensions `.hx` and `.lua`.):
 ```
 Haxe Extension Pack by Haxe Foundation
 Lime by OpenFL
@@ -71,15 +66,11 @@ Lua by sumneko
 ```
 If you open a file in Visual Studio Code, downloaded the extensions and the file is opened in restricted mode, add this folder with the repository, as trusted.
 
-# Other languages:
-- [Polska wersja/Polish vesrion](https://github.com/teotm/friday-night-funkin-source-code-guide/blob/main/otherLangs/polVesion/README.md).
-
 # Contributing
-Here is the information how you can contribute to the repository. If you want to, please follow the steps below if you have noticed any typos, misinformation or you just want to translate it.
+Here is the information how you can contribute to the repository. If you want to, please follow the steps below if you have noticed any typos or misinformation.
 1. Fork this repository
-2. Translate or improve this guide
+2. Improve this guide
 - If you noticed any typos or misinformations, just edit this file, so it will be more correct.
-- However if you want to make a translation, make a new file and translate it.
 3. Make a [pull request](https://github.com/teotm/friday-night-funkin-source-code-guide/pulls)
 
 # Credits
