@@ -5,7 +5,6 @@
 - [Problem 4](#Problem-no-4)
 - [Problem 5](#Problem-no-5) 
 - [Problem 6](#Problem-no-6) (not seen too often)
-- [Problem 7](#Problem-no-7)
 - More problems will be added soon...
 
 ## Problem no. 1:
