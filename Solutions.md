@@ -5,6 +5,7 @@
 - [Problem 4](#Problem-no-4)
 - [Problem 5](#Problem-no-5) 
 - [Problem 6](#Problem-no-6) (not seen too often)
+- [Problem 7](#Problem-no-7)
 - More problems will be added soon...
 
 ## Problem no. 1:
@@ -16,6 +17,10 @@ Null Function Reference
 ### Solution:
 This is a coding error and usually appears while coding any HaxeFlixel game. The error occurs, when you try to call a function that does not exist. Check your code and look for places where the object may be a different type than expected.
 ## Problem no. 3:
+While trying to compile the game, terminal prints out this line: `Warning: Could not find Visual Studio 2017 VsDevCmd`
+### Solution:
+Download [Visual Studio 2017](https://docs.microsoft.com/en-us/visualstudio/releasenotes/vs2017-relnotes), open up your software where you compile the game and type `lime test windows` in your terminal again
+## Problem no. 4:
 ```
 source/FunkinLua.hx:342: lines 342-346 : Int should be Bool
 source/FunkinLua.hx:342: lines 342-346 : ... For function argument 'f'
@@ -33,10 +38,6 @@ Remove the
 <define name="LUA_ALLOWED" if="desktop" />
 ```
 line from your Project.xml file. This solution can make your coding more difficult, since removing the line, disables scripting with `.lua`.
-## Problem no. 4:
-Does your CMD/IDE while not letting you compile the game something about Visual Studio 2017?
-### Solution:
-If it does, download Visual Studio 2017. [Here's the download](https://docs.microsoft.com/en-us/visualstudio/releasenotes/vs2017-relnotes).
 ## Problem no. 5:
 Kade Engine just crashes after Caching (loading characters and songs).
 ### Solution:
